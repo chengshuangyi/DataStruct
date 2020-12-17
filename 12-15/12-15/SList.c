@@ -154,8 +154,7 @@ void SListEraseAfter(SListNode* pos)
 		SListNode *nextnext = next->next;
 		pos->next = nextnext;
 		free(next);
-		/*pos->next = pos->next->next;
-		free(pos->next);*/
+	
 	}
 }
 
