@@ -1,0 +1,9 @@
+﻿  test.c
+Debug\list.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+test.obj : error LNK2019: 无法解析的外部符号 _ListInit，该符号在函数 _Test2 中被引用
+test.obj : error LNK2019: 无法解析的外部符号 _PrintList，该符号在函数 _Test2 中被引用
+test.obj : error LNK2019: 无法解析的外部符号 _ListPushBack，该符号在函数 _Test2 中被引用
+test.obj : error LNK2019: 无法解析的外部符号 _ListFind，该符号在函数 _Test2 中被引用
+test.obj : error LNK2019: 无法解析的外部符号 _ListInsert，该符号在函数 _Test2 中被引用
+test.obj : error LNK2019: 无法解析的外部符号 _ListErase，该符号在函数 _Test2 中被引用
+F:\比特\C_Code\DataList\Debug\DataList.exe : fatal error LNK1120: 6 个无法解析的外部命令
