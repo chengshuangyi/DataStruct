@@ -14,7 +14,7 @@ typedef struct Stack
 void StackInit(Stack* ps)
 {
 	assert(ps);
-	ps->_a = malloc(sizeof(int));
+	ps->_a = (STDataType *)malloc(sizeof(int) * 4);
 	ps->_top = 0;
 	ps->_capacity = 4;
 }
