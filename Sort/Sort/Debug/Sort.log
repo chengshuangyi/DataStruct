@@ -1,0 +1,3 @@
+﻿  test.c
+f:\c_code\sort\sort\test.c(84): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  Sort.vcxproj -> F:\C_Code\Sort\Debug\Sort.exe
